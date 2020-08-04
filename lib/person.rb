@@ -6,7 +6,7 @@ class Person
   #I have to make a custom setter for happiness
   def happiness=(happiness)
     if happiness <= 10
-      @happiness = 10
+      @happiness = happiness
     else
       @happiness = 10
     end
