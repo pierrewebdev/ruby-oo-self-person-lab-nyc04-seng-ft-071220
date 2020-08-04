@@ -23,16 +23,16 @@ class Person
   def hygiene=(hygiene)
     if hygiene <= 10 && hygiene > 0
       @hygiene = hygiene
-    elsif happiness < 0
-      @happiness = 0
-    elsif happiness > 10
-      @happiness = 10
+    elsif hygiene < 0
+      @hygiene = 0
+    elsif hygiene > 10
+      @hygiene = 10
     end
   end
   
   #getter to match my custom setter for hygiene
-  def happiness
-    @happiness
+  def hygiene
+    @hygiene
   end
   
   def initialize(name)
