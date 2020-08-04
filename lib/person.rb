@@ -14,6 +14,7 @@ class Person
     end
   end
   
+  #getter to match my custom setter for happiness
   def happiness
     @happiness
   end
@@ -22,5 +23,6 @@ class Person
     @name = name
     @bank_account = 25
     @happiness = 8
+    @hygiene = 8
   end
 end
