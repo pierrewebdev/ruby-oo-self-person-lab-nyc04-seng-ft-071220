@@ -9,6 +9,7 @@ class Person
       @happiness = 10
     else
       @happiness = 10
+    end
   end
   
   def initialize(name)
