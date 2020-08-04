@@ -7,8 +7,6 @@ class Person
   def happiness=(happiness)
     if happiness <= 10 && happiness > 0
       @happiness = happiness
-    elsif happiness < 0
-      @happiness = 0
     else
       @happiness = 10
     end
