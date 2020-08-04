@@ -57,6 +57,7 @@ class Person
   
   def take_bath
     current_hygiene_level = self.hygiene
+    binding.pry
     current_hygiene_level += 4
     "Rub-a-dub just relaxing in the tub"
   end
