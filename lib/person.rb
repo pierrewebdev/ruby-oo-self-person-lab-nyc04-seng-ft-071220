@@ -12,6 +12,10 @@ class Person
     end
   end
   
+  def happiness
+    @happiness
+  end
+  
   def initialize(name)
     @name = name
     @bank_account = 25
