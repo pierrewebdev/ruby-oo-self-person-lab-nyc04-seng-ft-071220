@@ -55,6 +55,12 @@ class Person
     "all about the benjamins"
   end
   
+  def take_bath
+    current_hygiene_level = self.hygiene
+    current_hygiene_level += 4
+    "Rub-a-dub just relaxing in the tub"
+  end
+  
   
   
 end
