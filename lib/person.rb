@@ -75,7 +75,7 @@ class Person
 
   def start_conversation(friend,topic_of_conversation)
     if topic_of_conversation == "politics"
-      
+      "blah blah partisan blah lobbyist"
     elsif topic_of_conversation == "weather"
     else
       "blah blah blah blah blah"
