@@ -71,7 +71,6 @@ class Person
     self.happiness += 3
     friend.happiness += 3
     "Hi #{friend.name}! It's #{self.name}. How are you?"
-    binding.pry
   end
   
   
