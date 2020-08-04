@@ -79,6 +79,8 @@ class Person
       friend.happiness -= 2
       "blah blah partisan blah lobbyist"
     elsif topic_of_conversation == "weather"
+      self.happiness += 1
+      friend.happiness += 1
       "blah blah sun blah rain"
     else
       "blah blah blah blah blah"
