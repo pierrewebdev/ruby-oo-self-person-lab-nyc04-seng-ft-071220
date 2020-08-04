@@ -41,4 +41,8 @@ class Person
     @happiness = 8
     @hygiene = 8
   end
+  
+  def happy?
+    @happiness > 7
+  end
 end
