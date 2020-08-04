@@ -77,6 +77,7 @@ class Person
     if topic_of_conversation == "politics"
       "blah blah partisan blah lobbyist"
     elsif topic_of_conversation == "weather"
+      "blah blah sun blah rain"
     else
       "blah blah blah blah blah"
     end
