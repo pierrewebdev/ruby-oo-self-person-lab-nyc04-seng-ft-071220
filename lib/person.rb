@@ -5,7 +5,7 @@ class Person
   
   #I have to make a custom setter for happiness
   def happiness=(happiness)
-    if happiness <= 10 || happiness > 0
+    if happiness <= 10 && happiness > 0
       @happiness = happiness
     elsif happiness < 0
       @happiness = 0
