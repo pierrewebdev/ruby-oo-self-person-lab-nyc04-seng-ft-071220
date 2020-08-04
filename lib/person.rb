@@ -61,6 +61,10 @@ class Person
     "♪ Rub-a-dub just relaxing in the tub ♫"
   end
   
+  def work_out
+    self.hygiene -= 3
+  end
+  
   
   
 end
