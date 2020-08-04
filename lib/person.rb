@@ -1,7 +1,7 @@
 # your code goes here
 class Person
   attr_reader :name
-  attr_accessor :bank_account
+  attr_accessor :bank_account, :hygiene
   
   #I have to make a custom setter for happiness
   def happiness=(happiness)
