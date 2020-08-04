@@ -1,3 +1,4 @@
+require "pry"
 # your code goes here
 class Person
   attr_reader :name
